@@ -1,16 +1,16 @@
-# Message in a Bottle 🍾
+# Tamfu 🍾
 
 Нативное iOS-приложение (Swift · SwiftUI · MVVM · async/await, iOS 17+): бросаешь сообщение в «океан», и его находит случайный человек на другом конце мира.
 
 ## Запуск
 
-1. Откройте `MessageInABottle.xcodeproj` в **Xcode 16+**.
+1. Откройте `Tamfu.xcodeproj` в **Xcode 16+**.
 2. Выберите симулятор iPhone (или своё устройство — тогда укажите Team в *Signing & Capabilities*).
 3. ⌘R.
 
 На экране приветствия нажмите **«Explore with a demo profile»** — откроется готовый профиль с перепиской, или пройдите онбординг (проверка 18+).
 
-> Проект использует *synchronized folders* Xcode 16: любой новый `.swift`-файл, добавленный в папку `MessageInABottle/`, автоматически попадает в сборку. Если у вас XcodeGen — есть `project.yml`.
+> Проект использует *synchronized folders* Xcode 16: любой новый `.swift`-файл, добавленный в папку `Tamfu/`, автоматически попадает в сборку. Если у вас XcodeGen — есть `project.yml`.
 
 ## Что работает (на моках)
 
@@ -26,7 +26,7 @@
 ## Архитектура
 
 ```
-MessageInABottle/
+Tamfu/
 ├── App/                 точка входа, AppModel (единый источник состояния), таб-бар
 ├── DesignSystem/        Theme (палитра, типографика, motion) + переиспользуемые компоненты
 ├── Models/              UserProfile, Bottle, Conversation, Game, Settings

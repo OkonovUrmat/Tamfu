@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MessageInABottleApp: App {
+struct TamfuApp: App {
     @State private var model = AppModel(services: .mock())
 
     var body: some Scene {
