@@ -11,7 +11,7 @@ targets:
     sources: [Tamfu]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.urmat.Tamfu
+        PRODUCT_BUNDLE_IDENTIFIER: com.tamfu.tamfu
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_CFBundleDisplayName: Tamfu
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
@@ -20,6 +20,6 @@ targets:
         TARGETED_DEVICE_FAMILY: 1
         SWIFT_VERSION: 5.0
         MARKETING_VERSION: 1.0
-        CURRENT_PROJECT_VERSION: 1
+        CURRENT_PROJECT_VERSION: 2
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
