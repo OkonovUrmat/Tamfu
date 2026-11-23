@@ -72,7 +72,8 @@ https://okonovurmat.github.io/Tamfu/
 2026 Urmat Okonov
 
 ### Screenshots
-`AppStore/screenshots-6.9in/` — 6 images, 1290 × 2796 px (accepted for the 6.9" iPhone display slot; App Store Connect scales them for smaller iPhones).
+`AppStore/screenshots-6.3in/` — 6 images, 1206 × 2622 px (iPhone 6.1"/6.3" “medium display” slot).
+`AppStore/screenshots-6.9in/` — same 6 images, 1290 × 2796 px (6.9" slot, if requested).
 
 ## App Review Information
 
